@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 
-import { UserAuthForm } from "@/components/user-auth-form";
+// import { UserAuthForm } from "@/components/user-auth-form";
 
 export default function SignInPage() {
   return (
@@ -35,7 +35,7 @@ export default function SignInPage() {
                 Enter your email below to create your account
               </p>
             </div>
-            <UserAuthForm />
+
             <p className="px-8 text-center text-sm text-muted-foreground">
               By clicking continue, you agree to our{" "}
               <Link
